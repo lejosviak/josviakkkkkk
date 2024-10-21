@@ -71,6 +71,10 @@
 .resposta-cartao{
     font-weight: 700;
     color: var(--destaque);
+    background-color: var(--cor-verso);
+    border: 3px solid var(--destaque);
+    transform: rotateY(180deg);
+
 }
 
 .cartao:hover .conteudo-cartao{
@@ -83,3 +87,4 @@
     height: 100%;
     width: 100%;
 }
+
