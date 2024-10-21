@@ -1,0 +1,43 @@
+:root{ 
+    --fundo:   #B0E2FF;
+    --cor-frente: #1C86EE;
+    --cor-verso: #104E8B;
+    --destaque: #FF00FF;
+    --preto: #000000;
+    --branco: #FFFAFA;
+    }
+   
+   body{ 
+       background-color: var(--fundo);
+    }
+   
+    footer{ 
+       position: fixed;
+       bottom: 0;
+       background-color: var(--preto);
+       color: var(--branco);
+       width: 100%;
+       text-align: center;
+   }
+   
+   #container{
+    padding: 4rem;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+   }
+
+   .cartao{
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+    height: 20rem;
+    margin: 1rem;
+   }
+
+   .conteudo-crtao{
+    background-color: var(--cor-frente);
+    height: 100%;
+    color:var(--branco);
+    text-align: center;
+
+   }
