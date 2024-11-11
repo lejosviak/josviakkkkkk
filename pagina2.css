@@ -49,3 +49,9 @@
    .cartao:hover{
      transform: scale(1.04);
    }
+
+   .resposta-cartao{
+    padding: 40px;
+    background-color: var(--cor-verso);
+    display: none;
+   }
