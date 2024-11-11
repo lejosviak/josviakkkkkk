@@ -1,5 +1,5 @@
 criaCartao( 
-    'Matemática'
+    'Matemática',
     'Qual é a fórmula para calcular a área de um triângulo?',
     'A = b x h / 2'
     )
@@ -59,7 +59,7 @@ criaCartao(
     )
     
     
-    criaCartao( 
+    criaCartao(
     'matemática',
     'Qual é a raiz quadrada de 144?',
     '12'
