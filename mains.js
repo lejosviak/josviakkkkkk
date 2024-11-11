@@ -19,11 +19,10 @@ function viraCartao (){
     respostaEstavisivel = !respostaEtaVisivel;
     cartao.classList.toggle('active', respostaEstaVisivel)
     
+
     }
-    `
-
+    cartao.eddEventListener('click', viraCartao)
 
     
-    
-    container.appendChild(cartao)
+    container.appendChild(cartao);
     }
